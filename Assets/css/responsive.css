@@ -1,0 +1,166 @@
+@media (max-width: 1024px) {
+    .container {
+        width: 85%;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+
+    }
+
+    .gap-3 {
+        gap: 1.5rem;
+    }
+
+    .content h3 {
+        font-size: 1.2rem;
+    }
+    .about-container{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 85%;
+    }
+
+    .f-sm {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        height: 200px;
+    }
+
+    .f-l {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .flex-wrap-sm {
+        flex-wrap: wrap;
+    }
+
+    .col {
+
+        flex: 1 1 calc(47% - 10px);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-column-sm {
+        flex-direction: column;
+    }
+
+    .content-center-sm {
+        justify-content: center !important;
+    }
+
+    .gap-2-sm {
+        gap: 20px;
+    }
+
+    .header {
+        height: 120px;
+    }
+
+    .nav ul li a {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+
+
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .w-100-sm {
+        width: 100% !important;
+    }
+
+    .service span,
+    .agency span {
+        font-size: 16px;
+    }
+    .img-area{
+      width: 85%;  
+    }
+    .service-card .content h3 {
+        font-size:1.5rem;
+    }
+
+}
+
+
+@media (max-width: 426px) {
+    .container-fluid {
+        width: 100%;
+    }
+
+    .service span,
+    .agency span {
+        font-size: 14px;
+    }
+
+    .flex-wrap-xs {
+        flex-wrap: wrap;
+    }
+
+    .content h3 {
+        font-size: 0.8rem;
+    }
+
+    .circle {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .box {
+        max-width: 100%;
+        width: 100%;
+        flex: 1 1 calc(100% - 10px);
+
+    }
+
+    .btn {
+        padding: 7px;
+    }
+
+    .nav ul li a {
+        font-size: 10px;
+    }
+    .about-container{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .about-content h3{
+        font-size: 1.2rem;
+    }
+    .about-content p{
+        font-size: 0.9rem;
+    }
+    .border-radius-top,.border-radius-bottom{
+        border-radius: 0px;
+    }
+    .service-card{
+        height: 520px;
+        padding-bottom: 20px;
+    }
+    .img-area{
+        width: 100%;
+    }
+    .service-card .content{
+        text-align: left;
+    }
+    .talk p{
+        font-size: 0.9rem;
+    }
+}
