@@ -368,6 +368,8 @@
  footer ul li a {
      font-size: 14px;
      font-weight: 400;
+     color: #FFF;
+     text-decoration: none;
  }
 
  footer img {
@@ -495,3 +497,6 @@
 input.form-control.btn {
     background:rgba(0, 42, 150, 1);
 }
+.footer ul li a {
+    color: #fff;
+    text-decoration: none}
